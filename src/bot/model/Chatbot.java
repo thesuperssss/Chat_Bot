@@ -1,5 +1,6 @@
 package bot.model;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
@@ -51,7 +52,7 @@ public class Chatbot
 	/**
 	 * Makes the String firstPoke.
 	 */
-	private ArrayList<String> myRandomList;
+	private String[] myRandomList;
 	/**
 	 * Makes the array myRandomList.
 	 */
@@ -64,7 +65,7 @@ public class Chatbot
 	{
 		conversationList = new ArrayList<String>();
 		myMemes = new ArrayList<String>();
-		myRandomList = new ArrayList<String>();
+		myRandomList = new String[3];
 		myVideogames = new ArrayList<String>();
 
 		gen1 = new ArrayList<String>();
@@ -92,10 +93,10 @@ public class Chatbot
 	 */
 	private void fillTheRandomList()
 	{
-		myRandomList.add(" penguins");
-		myRandomList.add(" I have to say something random?");
-		myRandomList.add(" you don't want that?");
-		myRandomList.add(" aklsjdfhklasdjhflkj");
+		myRandomList[0]=(" penguins");
+		myRandomList[1]=(" I have to say something random?");
+		myRandomList[2]=(" you don't want that?");
+		myRandomList[3]=(" aklsjdfhklasdjhflkj");
 	}
 
 	/**

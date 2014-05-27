@@ -9,9 +9,7 @@ import bot.view.ChatbotView;
 /**
  * 
  * @author jwil1446
- * @version 1.5 adding made to the project. Added getter for the chatbot.
- *          Removed the references to the popup view. added documentation. added
- *          conversation helper and memeCalidation
+ * @version 1.5 adding made to the project. Added getter for the chatbot. Removed the references to the popup view. added documentation. added conversation helper and memeCalidation
  */
 
 @SuppressWarnings("unused")
@@ -38,8 +36,7 @@ public class ChatbotController
 	}
 
 	/**
-	 * getter method for the chatbot instance.
-	 * 
+	 * getter method for the chatbot instance. 
 	 * @return the chatbot for the application
 	 */
 
